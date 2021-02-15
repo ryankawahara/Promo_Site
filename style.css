@@ -1,0 +1,346 @@
+@font-face {
+  font-family: 'Headliner';
+  src: url('HeadlinerNo.45 DEMO.ttf');
+}
+
+@font-face {
+  font-family: 'Rubens';
+  src: url('Rubens.ttf')
+}
+
+
+#topOfSite {
+  white-space:nowrap;
+  overflow:hidden;
+  /* keeps contents on one line. Credit: https://stackoverflow.com/questions/5232310/htmlcss-how-to-force-div-contents-to-stay-in-one-line */
+
+}
+#placeHolder{
+  background-color: black;
+  height: 150px;
+  width: 150px;
+  display: inline-block;
+float: left;
+}
+#logo {
+
+background-color: red;
+height: 150px;
+width: 150px;
+margin-left: 12.5px;
+background-image: url("WBlogo.jpg");
+background-size: 190px;
+background-position: center;
+/* float: left; */
+position: fixed;
+
+}
+
+#header{
+  display: inline-block;
+  text-align: center;
+
+  /* min-width: 500px; */
+  font-family:Rubens;
+  margin-left: 1.5%;
+  color:black;
+  background-color: black;
+  width:85vw;
+  height:150px;
+  white-space: normal;
+
+  /* position: fixed; */
+  /* white-space:nowrap;
+  overflow:hidden; */
+  /* overflow: visible; */
+}
+#titletext{
+  margin-left: auto;
+  margin-right: auto;;
+  text-align: center;
+  letter-spacing: 25px;
+  font-size: 10vw;
+  display:inline;
+  color:#FFFF19;
+  text-shadow: 2px 4px 6px #95a5a6;
+  /* white-space:wrap;
+  overflow:visible; */
+}
+body {
+background-color: black;
+}
+
+#sherlock{
+  white-space: normal;
+
+  display: inline;
+}
+#holmes{
+  white-space: normal;
+
+  display: inline;
+
+}
+
+#content {
+  white-space:nowrap;
+  overflow:hidden;
+  /* keeps contents on one line. Credit: https://stackoverflow.com/questions/5232310/htmlcss-how-to-force-div-contents-to-stay-in-one-line */
+  display:inline-block;
+
+}
+.listLink{
+  font-size:28px;
+  color:white;
+  font-family: Newsreader;
+font-weight: 300;
+display:inline;
+padding-top:1.5%;
+padding-left:0.75%;
+padding-right:0.75%;
+
+
+}
+
+#sideBarContents{
+  padding:10px;
+
+}
+
+#sidebar{
+  /* display:inline-block; */
+  border-color: #FFFF19;
+  border-width: 4px;
+  border-style: solid;
+  background-color:black;
+  width:180px;
+  height:40vh;
+  /* float:left; */
+  position:fixed;
+
+}
+
+#sidebarPlaceholder{
+  display:inline-block;
+  background-color:black;
+  width:200px;
+  height:800px;
+  float:left;
+
+}
+
+
+
+#headerphoto{
+  /* margin-left: auto;
+  margin-right: auto+-500px; */
+  /* left:-90px; */
+  font-family:Headliner;
+  display:inline-block;
+  animation: bgfade 25s infinite;
+  background-size: cover;
+  background-position: center -50px;
+  position:relative;
+  width:82.75vw;
+  height:600px;
+  font-size:130px;
+color:#FFFF19;
+    letter-spacing: 6.5px;
+    text-align: center;
+  /* text-align: center; */
+
+  /* background-image:url("sherlockimage.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center -50px;
+  width:82.75vw;
+  height:600px; */
+}
+
+#smallText{
+padding-right:-120px;
+  white-space: normal;
+  /* padding-left: 140px; */
+    font-size:75px;
+  display:inline;
+}
+
+#bigText{
+  white-space: normal;
+
+  display:inline;
+}
+
+#bodyContent{
+  font-family: Newsreader;
+font-weight: 600;
+  font-size: 5vw;
+  white-space: normal;
+  color:white;
+  display:block;
+  text-align:center;
+  padding:2.5%;
+}
+@keyframes bgfade{
+  /* learned how to fade backgrounds from http://v3.danielmall.com/articles/responsive-line-breaks/ */
+
+  0%{
+    background-image:url("sherlockimage.png");
+  }
+  25%{
+    background-image:url("slide1.png");
+  }
+  50%{
+    background-image:url("slide2.png");
+  }
+  75%{
+    background-image:url("slide3.png");
+
+  }
+  100%{
+    background-image:url("sherlockimage.png");
+
+  }
+}
+
+#bottomLinks{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align:center;
+  font-family: Newsreader;
+font-weight: 300;
+/* font-weight allows for different styles of same font */
+
+}
+
+#footerTitle{
+  font-size:25px;
+  font-family: Newsreader;
+font-weight: 500;
+
+}
+
+#attribution{
+  margin-top: -50px;
+  font-size:35px;
+  font-family: Newsreader;
+font-weight: 500;
+display: block;
+text-align: center;
+
+}
+
+.bigHeader{
+  color:#FFFF19;
+  text-shadow: 2px 4px 6px #95a5a6;
+  margin-top: 25px;
+  font-family: Headliner;
+  text-align: center;
+  font-size: 125px;
+}
+
+.title{
+  padding-top: 25px;
+  color:#FFFF19;
+  font-family: Headliner;
+text-align: center;
+font-size: 45px;
+letter-spacing: 2px;
+}
+.name{
+  font-size: 35px;
+    font-family:Rubens;
+      color:#FFFF19;
+      letter-spacing: 2px;
+      text-align: center;
+}
+
+.paragraph{
+  margin-left: auto;
+  margin-right:auto;
+  display: block;
+  text-align: justify;
+  width:800px;
+  height:350px;
+  font-family: Newsreader;
+  font-weight:300;
+  color: white;
+  font-size:36px;
+  margin-bottom: 55px;
+
+}
+.castPicContainer{
+  text-align: center;
+width:320px;
+height:240px;
+position:relative;
+display: inline;
+text-align: center;
+/* text on image feature adapted from https://stackoverflow.com/questions/14263594/how-to-show-text-on-image-when-hovering */
+}
+
+.castName{
+  position:absolute;
+
+  font-family: Rubens;
+  color:#FFFF19;
+  letter-spacing: 2px;
+
+  font-size: 45px;
+  margin-top: 180px;
+  left:0px;
+
+  right:0px;
+display: inline;
+background: black;
+
+visibility: hidden;
+opacity: 0;
+transition: opacity .2s, visibility .2s;
+}
+
+.castPicContainer:hover .castName{
+  visibility: visible;
+  opacity:1;
+}
+#cast{
+  /* margin-left: 275px; */
+text-align: center;
+  /* display: inline-block; */
+}
+
+#sidebarTitle{
+  text-align: center;
+  font-size:33px;
+  font-family: Newsreader;
+font-weight: 500;
+  color:white;
+}
+
+.iconPic{
+position:relative; top: 4px;
+width:18%;
+height:auto;
+
+}
+
+
+
+.videoEmbed{
+text-align: center;
+
+}
+
+/* overrides link colors to fit theme */
+a:link {
+    color: white;
+    text-decoration: none;
+
+}
+a:visited {
+    color: white;
+}
+a:hover {
+    color: gray;
+    transition: 0.5s;
+}
